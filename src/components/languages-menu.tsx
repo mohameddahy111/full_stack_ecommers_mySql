@@ -17,16 +17,8 @@ export interface ILanguageMenuProps {
 
 export default function LanguageMenu ({}: ILanguageMenuProps) {
      const local = useLocale();
-      function handlerLanguages(lang: string) {
-       SetLanguage(lang).then(() => {
-        if (lang === "ar") {
-         document.body.style.direction = "rtl";
-        } else {
-         document.body.style.direction = "ltr";
-        }
-       }).catch((err) => {
-        console.log(err);
-       });
+     async function handlerLanguages(lang: string) {
+      await SetLanguage(lang)
       }
       
       
@@ -52,16 +44,16 @@ export default function LanguageMenu ({}: ILanguageMenuProps) {
     <DropdownMenuContent>
      <DropdownMenuItem
       onClick={() => {
-         SetLanguage("en");
-         document.body.style.direction = "ltr";
+         handlerLanguages("en");
+         document.body.dir = "ltr";
       }}
      >
       English
      </DropdownMenuItem>
      <DropdownMenuItem
       onClick={() => {
-         SetLanguage("ar");
-         document.body.style.direction = "rtl";
+         handlerLanguages("ar");
+         document.body.dir= "rtl";
       }}
      >
       عربي

@@ -14,7 +14,7 @@ export async function AthourLogin() {
  }
 }
 
-export async function SetLanguage(lang: string) {
+export async function SetLanguage(lang: string){
  (await cookies()).set("locale", lang);
 }
 export async function AddUser(user: any) {
