@@ -24,6 +24,8 @@ export default function LanguageMenu ({}: ILanguageMenuProps) {
         } else {
          document.body.style.direction = "ltr";
         }
+       }).catch((err) => {
+        console.log(err);
        });
       }
       
@@ -50,14 +52,16 @@ export default function LanguageMenu ({}: ILanguageMenuProps) {
     <DropdownMenuContent>
      <DropdownMenuItem
       onClick={() => {
-       handlerLanguages("en");
+         SetLanguage("en");
+         document.body.style.direction = "ltr";
       }}
      >
       English
      </DropdownMenuItem>
      <DropdownMenuItem
       onClick={() => {
-       handlerLanguages("ar");
+         SetLanguage("ar");
+         document.body.style.direction = "rtl";
       }}
      >
       عربي
