@@ -3,7 +3,7 @@
 import { prisma } from "@/lib/prisma";
 import bcrypt from "bcryptjs";
 import { cookies } from "next/headers";
-import { decodeToken, getToken, verifyToken } from "@/lib/jwt";
+import { getToken } from "@/lib/jwt";
 import { HandelError } from "@/lib/handerlError";
 import { redirect } from "next/navigation";
 

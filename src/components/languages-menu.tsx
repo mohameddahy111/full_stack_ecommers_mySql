@@ -12,22 +12,23 @@ import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
 import { SetLanguage } from '@/app/actions';
 
-async function handlerLanguages(lang: string) {
-await SetLanguage(lang).then(() => {
-  if (lang === "ar") {
-   document.body.style.direction = "rtl";
-  } else {
-   document.body.style.direction = "ltr";
-  }
- });
-}
-
 export interface ILanguageMenuProps {
 }
 
 export default function LanguageMenu ({}: ILanguageMenuProps) {
      const t = useTranslations();
      const local = useLocale();
+     async function handlerLanguages(lang: string) {
+      await SetLanguage(lang).then(() => {
+        if (lang === "ar") {
+         document.body.style.direction = "rtl";
+        } else {
+         document.body.style.direction = "ltr";
+        }
+       });
+      }
+      
+      
     
   return (
     <DropdownMenu>
