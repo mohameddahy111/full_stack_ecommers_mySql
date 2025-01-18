@@ -12,8 +12,8 @@ import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
 import { SetLanguage } from '@/app/actions';
 
-function handlerLanguages(lang: string) {
- SetLanguage(lang).then(() => {
+async function handlerLanguages(lang: string) {
+await SetLanguage(lang).then(() => {
   if (lang === "ar") {
    document.body.style.direction = "rtl";
   } else {
