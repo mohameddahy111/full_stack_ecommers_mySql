@@ -1,0 +1,84 @@
+{
+ "mainMenu": {
+  "home": " الرئسية",
+  "shop": " المتجر",
+  "contact": "اتصال بنا",
+  "about": "اعرف عنا",
+  "offers": "العروض",
+  "recently": "وصول مؤخرا"
+ },
+ "auth": {
+  "Full_Name": "الاسم الكامل",
+  "Full_Name_hint": "ادخل اسمك كاملا",
+  "full_name_required": "الاسم الكامل مطلوب",
+  "Welcome": " تشرقنا",
+  "main_title": " بنضمامك لنا ",
+  "description": " عند التسجيل في موقعنا يمكنك الاستفادة من العروض الحصرية و معرفت الجديد اولا ",
+  "password": "كلمة المرور",
+  "phone": "رقم الهاتف",
+  "email": "البريد الإلكتروني",
+  "phone_hint": "ادخل رقم هاتفك",
+  "password_hint": "ادخل كلمة المرور",
+  "email_hint": "ادخل البريد الإلكتروني",
+  "password_required": "كلمة المرور مطلوبة",
+  "confirm_password": " تاكيد كلمة المرور",
+  "confirm_password_invalid": "تاكيد كلمة المرور غير صحيح",
+  "confirm_password_hint": "تاكيد كلمة المرور",
+  "confirm_password_required": "تاكيد كلمة المرور مطلوب",
+  "email_required": "البريد الإلكتروني مطلوب",
+  "phone_required": "رقم الهاتف مطلوب",
+  "password_invalid": "كلمة المرور غير صحيحة",
+  "email_invalid": "البريد الإلكتروني غير صحيح",
+  "phone_invalid": "رقم الهاتف غير صحيح",
+  "signIn": {
+   "title": "تسجيل الدخول",
+   "forgotPassword": "نسيت كلمة المرور؟"
+  },
+  "signUp": {
+   "title": "انشاء حساب",
+   "terms": "شروط و أحكام",
+   "read":"أقرأ و أوافق على"
+  }
+ },
+ "success": {
+  "add_user_success": "تم الاضافة بنجاح",
+  "update_user_success": "تم التحديث بنجاح",
+  "delete_user_success": "تم حذف المستخدم بنجاح",
+  "login_success": "تم تسجيل الدخول بنجاح"
+ },
+ "error": {
+  "add_user_error": "لم يتم الاضافة بنجاح",
+  "update_user_error": "لم يتم التحديث بنجاح",
+  "login_error": "لم يتم العثور على المستخدم",
+  "delete_login_error": "هذا الحساب معطل انشاء حساب آخر",
+  "login_password_error": "كلمة المرور غير صحيحة",
+  "isExiting_user_error": "هذا البريد الإلكتروني أو رقم الهاتف موجود بالفعل"
+
+ },
+ "dashboard_side_bar": {
+  "side_bar":{
+    "Dashboard":"لوحة القيادة",
+    "Employee":"الموظفين",
+    "Admins":"المدراء",
+    "Products":"المنتجات",
+    "Orders":"الطلبات",
+    "Clients":"العملاء",
+    "Stock":"المخزون",
+    "Settings":"الإعدادات",
+    "Notifications":"الإشعارات",
+    "logout":"تسجيل الخروج"
+
+  }
+},
+"tables":{
+  "employees":{
+    "#":"رقم",
+    "name":"الاسم",
+    "email":"البريد الإلكتروني",
+    "phone":"رقم الهاتف",
+    "role":"الدور",
+    "actions":"الإجراءات"
+  }
+}
+
+}

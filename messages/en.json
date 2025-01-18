@@ -1,0 +1,82 @@
+{
+ "mainMenu": {
+  "home": "Home",
+  "shop": "Shop",
+  "contact": "Contact",
+  "about": "About",
+  "offers": "Offers",
+  "recently": "Recently"
+ },
+ "auth": {
+  "Full_Name": "Full Name",
+  "Full_Name_hint": "Enter your full name",
+  "full_name_required": "Full Name is required",
+  "Welcome": "Welcome",
+  "main_title": "to join us",
+  "description": "When you register on our website, you can benefit from exclusive offers and know what's new first.",
+  "password": "Password",
+  "phone": "Phone",
+  "email": "Email",
+  "phone_hint": "Enter your phone number",
+  "password_hint": "Enter your password",
+  "confirm_password": "Confirm Password",
+  "confirm_password_invalid": "Confirm Password is invalid",
+  "confirm_password_hint": "Confirm your password",
+  "confirm_password_required": "Confirm Password is required",
+  "email_hint": "Enter your email",
+  "password_required": "Password is required",
+  "email_required": "Email is required",
+  "phone_required": "Phone is required",
+  "password_invalid": "Password is invalid",
+  "email_invalid": "Email is invalid",
+  "phone_invalid": "Phone is invalid",
+  "signIn": {
+   "title": "Sign In",
+   "forgotPassword": "Forgot Password?"
+  },
+  "signUp": {
+   "title": "Sign Up",
+   "terms": "Terms and Conditions",
+   "read":"I read and agree"
+  }
+ },
+ "success": {
+  "add_user_success": "User added successfully",
+  "update_user_success": "User updated successfully",
+  "delete_user_success": "User deleted successfully",
+  "login_success": "User logged in successfully"
+ },
+ "error": {
+  "add_user_error": "User not added successfully",
+  "update_user_error": "User not updated successfully",
+  "login_error": "User not found",
+  "delete_login_error": "This accound is damage create anther one",
+  "login_password_error": "Password is invalid",
+  "isExiting_user_error": "This Email  or Phone is already exist"
+},
+"dashboard_side_bar": {
+  "side_bar":{
+    "Dashboard":"Dashboard",
+    "Employee":"Employee",
+    "Admins":"Admins",
+    "Products":"Produects",
+    "Orders":"Orders",
+    "Clients":"Clients",
+    "Stock":"Stock",
+    "Settings":"Settings",
+    "Notifications":"Notifications",
+    "logout":"Logout"
+
+  }
+},
+"tables":{
+  "employees":{
+    "#":"#",
+    "name":"Name",
+    "email":"Email",
+    "phone":"Phone",
+    "role":"Role",
+    "actions":"Actions"
+  }
+}
+}
