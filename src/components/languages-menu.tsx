@@ -9,17 +9,16 @@ import {
    } from "./ui/dropdown-menu"
 import { Button } from "./ui/button";
 import Image from "next/image";
-import { useLocale, useTranslations } from "next-intl";
+import { useLocale } from "next-intl";
 import { SetLanguage } from '@/app/actions';
 
 export interface ILanguageMenuProps {
 }
 
 export default function LanguageMenu ({}: ILanguageMenuProps) {
-     const t = useTranslations();
      const local = useLocale();
-     async function handlerLanguages(lang: string) {
-      await SetLanguage(lang).then(() => {
+      function handlerLanguages(lang: string) {
+       SetLanguage(lang).then(() => {
         if (lang === "ar") {
          document.body.style.direction = "rtl";
         } else {
