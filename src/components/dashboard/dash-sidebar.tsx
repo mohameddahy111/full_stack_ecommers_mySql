@@ -42,7 +42,7 @@ export function DashSidebar() {
      <h2
       className={`${!open ? " hidden" : " text-[#203040] text-2xl font-bold"}`}
      >
-      Dashboard
+      {t("dashboard_side_bar.side_bar.Dashboard")}
      </h2>
     </div>
     <Separator className="my-2.5" />

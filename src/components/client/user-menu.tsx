@@ -17,7 +17,7 @@ export interface IUserMenuProps {
 export default function UserMenu ({}: IUserMenuProps) {
   return (
     <DropdownMenu>
-  <DropdownMenuTrigger>
+  <DropdownMenuTrigger className='hidden sm:block'>
     <Avatar className=' shadow-md'>
         <AvatarImage src="https://github.com/shadcn.png" ></AvatarImage>
     </Avatar>

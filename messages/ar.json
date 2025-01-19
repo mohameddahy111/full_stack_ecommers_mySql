@@ -57,7 +57,7 @@
  },
  "dashboard_side_bar": {
   "side_bar":{
-    "Dashboard":"لوحة القيادة",
+    "Dashboard":"لوحة التحكم",
     "Employee":"الموظفين",
     "Admins":"المدراء",
     "Products":"المنتجات",

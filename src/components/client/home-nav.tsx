@@ -27,7 +27,7 @@ export default function HomeNave({}: IHomeNaveProps) {
    </div>
    <div className=" col-span-11  shadow-md rounded-full bg-primary ">
     <div className=" grid grid-cols-12 translate-y-1/3">
-     <div className="flex col-span-10 justify-center capitalize text-[#203040] items-center gap-10">
+     <div className="flex col-span-10   justify-center capitalize text-[#203040] items-center gap-10">
       {mainMenu.map((item: { title: string; href: string }, index: number) => {
        return (
         <Link
