@@ -1,8 +1,11 @@
+version: '3.8'
 services:
-  with-docker-multi-env-development:
+  nextjs-app:
     build:
-      context: ../../
-      dockerfile: docker/development/Dockerfile
-    image: with-docker-multi-env-development
+      context: .
     ports:
-      - "3001:3000"
+      - "3000:3000"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    command: sh -c "if [ -f yarn.lock ]; then yarn dev; else npm run dev; fi"
