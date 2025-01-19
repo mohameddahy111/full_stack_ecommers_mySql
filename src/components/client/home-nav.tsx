@@ -41,7 +41,10 @@ export default function HomeNave({}: IHomeNaveProps) {
       })}
      </div>
      <div className=" flex justify-end  gap-3 col-span-2 pe-5">
-      <LanguageMenu />
+        <div className=" hidden sm:block">
+
+      <LanguageMenu  />
+        </div>
       <UserMenu />
      </div>
     </div>
